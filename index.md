@@ -39,7 +39,7 @@ Hello! I am a second-year Ph.D. student in [Computer Science](https://cs.duke.ed
 ## Publications
 
 📖 **Yi Yang**, Yanqiao Zhu, Hejie Cui, Xuan Kan, Lifang He, Ying Guo, Carl Yang.  
-  **Data-Efficient Brain Connectome Analysis via Multi-Task Meta-Learning**  
+**Data-Efficient Brain Connectome Analysis via Multi-Task Meta-Learning**  
   *28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)*.  
   [🔗 DOI](https://doi.org/10.1145/3534678.3542680) | [📄 PDF](path/to/pdf) | [📜 BibTeX](path/to/bibtex)
 
@@ -62,43 +62,6 @@ Hello! I am a second-year Ph.D. student in [Computer Science](https://cs.duke.ed
   **BrainODE: Dynamic Brain Signal Analysis via Graph-Aided Neural Ordinary Differential Equations**  
   *IEEE International Conference on Biomedical and Health Informatics (BHI 2024)*.  
   [📄 PDF](path/to/pdf) | [📜 BibTeX](path/to/bibtex)
-
-
-
-## Research Experiences
-
-### Duke University, Department of Computer Science
-*Research Assistant*  
-*Advisor: [Jian Pei, Ph.D.](https://sites.google.com/view/jpei/jian-peis-homepage)*  
-*Durham, NC*  
-**Sep. 2023 - Present**
-
-- **Paradox Learning and Data Storytelling** *(On-going)*
-  - Discovered that multiple instances of association reversal (e.g., Simpson's paradox) in a multi-attribute dataset can describe the same data subspace—a phenomenon termed redundancy—and conjectured that redundancy among association reversals establishes an equivalence relation.
-  - Designed computational methods for efficient discovery of paradox redundancy by employing pruning strategies to eliminate exhaustive and repetitive data subspace searches, and implementing parallelism and simplified data structures to improve execution and memory efficiency.
-  - Constructed a synthetic data generator to uncover relevant conditions and properties of data distributions that precipitate the formation of redundant instances of statistical paradoxes.
-
-- **General Pattern Co-clustering of Sparse Tabular Data** *(On-going)*
-  - Developing an unsupervised framework for co-cluster discovery in sparse tabular data by learning latent representations that model similarity structures between row and column objects.
-  - Performing empirical studies on diverse real and synthetic datasets, providing interpretations to discovered co-clusters to support downstream applications such as recommendation systems.
-
-### Emory University, Department of Computer Science
-*Undergraduate Research Assistant*  
-*Advisor: [Carl Yang, Ph.D.](https://www.cs.emory.edu/~jyang71/)*  
-*Atlanta, GA*  
-**Aug. 2021 - Apr. 2023**
-
-- **Meta-learning for Brain Network Analysis** *(Published in KDD'22, [PDF](https://arxiv.org/pdf/2206.04486.pdf))*
-  - Developed a meta-learning framework for graph neural networks, improving knowledge generalization across brain network systems and adaptation to local datasets with limited samples.
-  - Introduced adaptive and task-specific learning trajectories to reconcile heterogeneous cross-tasks model performance due to varying task difficulties, resulting in faster model convergence and a 21% relative improvement in downstream performance over the strongest baseline.
-
-- **GNN Pre-training for Brain Network Analysis** *(Published in CHIL'23, [PDF](https://www.cs.emory.edu/~jyang71/files/ptgb.pdf))*
-  - Proposed a self-supervised GNN pre-training for brain network data by optimizing a novel contrastive objective that leverages functional and spatial dependencies among cerebral regions, achieving a 13% relative increase in disease prediction accuracy over supervised baselines.
-  - Designed a data-driven pre-processing pipeline to address format misalignment issues in cross-dataset learning with a focus on the preservation of original brain parcellation structures.
-
-- **Federated Learning for Brain Network Analysis** *(Published in PSB'24, [PDF](https://www.cs.emory.edu/~jyang71/files/fedbrain.pdf))*
-  - Implemented a federated learning framework for brain network representation learning, enabling collaborative and distributed learning among multiple institutions with privately enclosed data.
-  - Developed a hierarchical clustering of FL participants using clinical prior knowledge and neural circuitry metadata to enhance client personalization, leading to a 14% relative improvement in biomarker and disease prediction accuracy over state-of-the-art FL architectures.
 
 ## Professional Experiences
 
