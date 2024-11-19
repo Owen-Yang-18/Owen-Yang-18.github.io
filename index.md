@@ -1,5 +1,5 @@
 ---
-# layout: home
+layout: home
 author_profile: true
 title: Owen Yang's Personal Homepage
 ---
