@@ -36,6 +36,35 @@ Hello! I am a second-year Ph.D. student in [Computer Science](https://cs.duke.ed
 - **Teaching Assistantship:** Data Structures and Algorithms, Fall 2021 & Fall 2022
 - **Relevant Coursework:** Artificial Intelligence, Partial Differential Equations, Data Mining, Computer Architecture, Convex Optimization, Mathematical Statistics, Advanced Algorithms
 
+## Publications
+
+📖 **Yi Yang**, Yanqiao Zhu, Hejie Cui, Xuan Kan, Lifang He, Ying Guo, Carl Yang.  
+  **Data-Efficient Brain Connectome Analysis via Multi-Task Meta-Learning**  
+  *28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)*.  
+  [🔗 DOI](https://doi.org/10.1145/3534678.3542680) | [📄 PDF](path/to/pdf) | [📜 BibTeX](path/to/bibtex)
+
+📖 **Yi Yang**, Hejie Cui, Carl Yang.  
+  **PTGB: Pre-Train Graph Neural Networks for Brain Network Analysis**  
+  *Conference on Health, Inference, and Learning (CHIL 2023) (Oral)*.  
+  [📄 PDF](path/to/pdf) | [📜 BibTeX](path/to/bibtex)
+
+📖 Alexis Li, **Yi Yang**, Hejie Cui, Carl Yang.  
+  **Brainsteam: A Practical Pipeline for Connectome-Based fMRI Analysis Towards Subject Classification**  
+  *Pacific Symposium on Biocomputing (PSB 2024) (Oral)*.  
+  [📄 PDF](path/to/pdf) | [📜 BibTeX](path/to/bibtex)
+
+📖 **Yi Yang**, Han Xie, Hejie Cui, Carl Yang.  
+  **FedBrain: Federated Training of Graph Neural Networks for Connectome-Based Brain Imaging Analysis**  
+  *Pacific Symposium on Biocomputing (PSB 2024)*.  
+  [📄 PDF](path/to/pdf) | [📜 BibTeX](path/to/bibtex)
+
+📖 Kaiqiao Han, **Yi Yang**, Zijie Huang, Xuan Kan, Yang Yang, Ying Guo, Lifang He, Liang Zhan, Yizhou Sun, Wei Wang, Carl Yang.  
+  **BrainODE: Dynamic Brain Signal Analysis via Graph-Aided Neural Ordinary Differential Equations**  
+  *IEEE International Conference on Biomedical and Health Informatics (BHI 2024)*.  
+  [📄 PDF](path/to/pdf) | [📜 BibTeX](path/to/bibtex)
+
+
+
 ## Research Experiences
 
 ### Duke University, Department of Computer Science
