@@ -3,15 +3,78 @@ layout: home
 author_profile: true
 title: Owen Yang's Personal Homepage
 ---
-<!-- <style>
+<style>
+  /* Base font size for the body */
   body {
-    font-size: 16px;
+    font-size: 16px;  /* Base size - all em units will reference this */
+    line-height: 1.6;  /* Good for readability */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
+
+  /* Heading sizes using em for scalability */
   h1 {
-    font-size: 2em;
+    font-size: 2em;        /* 32px */
+    margin-bottom: 0.5em;
   }
-  /* Add other custom styles here */
-</style> -->
+  
+  h2 {
+    font-size: 1.5em;     /* 24px */
+    margin-bottom: 0.5em;
+  }
+  
+  h3 {
+    font-size: 1.25em;    /* 20px */
+    margin-bottom: 0.5em;
+  }
+
+  /* Paragraph and text elements */
+  p {
+    font-size: 1em;       /* 16px */
+    margin-bottom: 1em;
+  }
+
+  /* Lists */
+  ul, ol {
+    font-size: 1em;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+  }
+
+  /* Links */
+  a {
+    color: #0366d6;       /* GitHub-style link color */
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Code blocks */
+  code {
+    font-size: 0.9em;     /* 14.4px */
+    font-family: Consolas, Monaco, 'Courier New', monospace;
+    background-color: #f6f8fa;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+  }
+
+  /* Blockquotes */
+  blockquote {
+    font-size: 1em;
+    border-left: 4px solid #ddd;
+    padding-left: 1em;
+    margin-left: 0;
+    color: #666;
+  }
+
+  /* Optional: Responsive font sizes */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;    /* Slightly smaller base size on mobile */
+    }
+  }
+</style>
 <!-- ## About Me -->
 
 Hello! 
