@@ -6,43 +6,43 @@ title: Owen Yang's Personal Homepage
 <style>
   /* Base font size for the body */
   body {
-    font-size: 16px;  /* Base size - all em units will reference this */
-    line-height: 1.6;  /* Good for readability */
+    font-size: 18px;  /* Increased from 16px */
+    line-height: 1.6;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   }
 
   /* Heading sizes using em for scalability */
   h1 {
-    font-size: 2em;        /* 32px */
+    font-size: 2em;        /* Now 36px */
     margin-bottom: 0.5em;
   }
   
   h2 {
-    font-size: 1.5em;     /* 24px */
+    font-size: 1.5em;     /* Now 27px */
     margin-bottom: 0.5em;
   }
   
   h3 {
-    font-size: 1.25em;    /* 20px */
+    font-size: 1.25em;    /* Now 22.5px */
     margin-bottom: 0.5em;
   }
 
   /* Paragraph and text elements */
   p {
-    font-size: 1em;       /* 16px */
+    font-size: 1em;       /* Now 18px */
     margin-bottom: 1em;
   }
 
   /* Lists */
   ul, ol {
-    font-size: 1em;
+    font-size: 1em;       /* Now 18px */
     margin-bottom: 1em;
     padding-left: 1.5em;
   }
 
   /* Links */
   a {
-    color: #0366d6;       /* GitHub-style link color */
+    color: #0366d6;
     text-decoration: none;
   }
 
@@ -52,7 +52,7 @@ title: Owen Yang's Personal Homepage
 
   /* Code blocks */
   code {
-    font-size: 0.9em;     /* 14.4px */
+    font-size: 0.9em;     /* Now 16.2px */
     font-family: Consolas, Monaco, 'Courier New', monospace;
     background-color: #f6f8fa;
     padding: 0.2em 0.4em;
@@ -61,7 +61,7 @@ title: Owen Yang's Personal Homepage
 
   /* Blockquotes */
   blockquote {
-    font-size: 1em;
+    font-size: 1em;       /* Now 18px */
     border-left: 4px solid #ddd;
     padding-left: 1em;
     margin-left: 0;
@@ -71,7 +71,7 @@ title: Owen Yang's Personal Homepage
   /* Optional: Responsive font sizes */
   @media screen and (max-width: 768px) {
     body {
-      font-size: 14px;    /* Slightly smaller base size on mobile */
+      font-size: 16px;    /* Slightly larger than before on mobile */
     }
   }
 </style>
