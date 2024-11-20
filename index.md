@@ -115,8 +115,7 @@ Kaiqiao Han, **Yi Yang**, Zijie Huang, Xuan Kan, Yang Yang, Ying Guo, Lifang He,
   *IEEE International Conference on Biomedical and Health Informatics (BHI 2024)*.  
   [📄 PDF](https://arxiv.org/pdf/2405.00077) | [📜 BibTeX](https://scholar.googleusercontent.com/scholar.bib?q=info:mm1KdoQi9JUJ:scholar.google.com/&output=citation&scisdr=ClH8TRatEOK4zI1rJUM:AFWwaeYAAAAAZz1tPUMJv_y3ckIZoDVxYb4dpkI&scisig=AFWwaeYAAAAAZz1tPZftPqxVoSPj-HW4CxvFDxs&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1)
 
-## Services
-
+## Services 
 ### Teaching Assistantships
 
 - **Introduction to Databases**  
