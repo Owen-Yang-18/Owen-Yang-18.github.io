@@ -1,11 +1,11 @@
 # main links
 main:
+  - title: "About"
+    url: https://owen-yang-18.github.io/#about-me
   - title: "Education"
     url: https://owen-yang-18.github.io/#education
   # - title: "Research Experiences"
   #   url: https://owen-yang-18.github.io/#research-experiences
-  - title: "About Me"
-    url: https://owen-yang-18.github.io/#about-me
   - title: "Publications"
     url: https://owen-yang-18.github.io/#publications
   # - title: "Sitemap"
