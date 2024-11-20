@@ -3,7 +3,6 @@ layout: home
 author_profile: true
 title: Owen Yang's Personal Homepage
 ---
-
 <!-- <style>
   body {
     font-size: 16px;
@@ -13,8 +12,7 @@ title: Owen Yang's Personal Homepage
   }
   /* Add other custom styles here */
 </style> -->
-
-## About Me
+<!-- ## About Me -->
 
 Hello! 
 I am Yi (Owen) Yang, a second-year Ph.D. student in [Computer Science](https://cs.duke.edu/) at [Duke University](https://duke.edu/), where I am fortunate to be advised by Professor [Jian Pei](https://sites.google.com/view/jpei/jian-peis-homepage). 
