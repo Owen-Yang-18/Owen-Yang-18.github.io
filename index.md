@@ -92,7 +92,7 @@ I love discussing research ideas and exploring new collaborations! Feel free to 
 
 **Yi Yang**, Yanqiao Zhu, Hejie Cui, Xuan Kan, Lifang He, Ying Guo, Carl Yang.  
 **Data-Efficient Brain Connectome Analysis via Multi-Task Meta-Learning**  
-  *28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)*.  
+  *ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2022)*.  
  [📄 PDF](https://dl.acm.org/doi/pdf/10.1145/3534678.3542680) | [📜 BibTeX](https://scholar.googleusercontent.com/scholar.bib?q=info:1rrUaOy4J8cJ:scholar.google.com/&output=citation&scisdr=ClH8TRatEOK4zI1qdYY:AFWwaeYAAAAAZz1sbYYPaT7d9vI0HCu21eKn7Xo&scisig=AFWwaeYAAAAAZz1sbafSbLGWtAVLb9VvE7oDxV4&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1)
 
 **Yi Yang**, Hejie Cui, Carl Yang.  
