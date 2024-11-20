@@ -114,3 +114,24 @@ Kaiqiao Han, **Yi Yang**, Zijie Huang, Xuan Kan, Yang Yang, Ying Guo, Lifang He,
   **BrainODE: Dynamic Brain Signal Analysis via Graph-Aided Neural Ordinary Differential Equations**  
   *IEEE International Conference on Biomedical and Health Informatics (BHI 2024)*.  
   [📄 PDF](https://arxiv.org/pdf/2405.00077) | [📜 BibTeX](https://scholar.googleusercontent.com/scholar.bib?q=info:mm1KdoQi9JUJ:scholar.google.com/&output=citation&scisdr=ClH8TRatEOK4zI1rJUM:AFWwaeYAAAAAZz1tPUMJv_y3ckIZoDVxYb4dpkI&scisig=AFWwaeYAAAAAZz1tPZftPqxVoSPj-HW4CxvFDxs&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1)
+
+## Services
+
+### Teaching Assistantships
+
+- **Introduction to Databases**  
+  Duke University, Fall 2024.
+
+- **Data Structures and Algorithms**  
+  Emory University, Fall 2021 & Fall 2022.
+
+### Conference & Journal Reviews
+
+- **Journal Reviews:**  
+  - IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2023, 2024.  
+  - ACM Transactions on Knowledge Discovery from Data (TKDD), 2024.  
+  - Neurocomputing, 2022, 2023.
+
+- **Conference Reviews:**  
+  - IEEE International Conference on Data Mining (ICDM), 2023, 2024.  
+  - Pacific Symposium on Biocomputing (PSB), 2024.

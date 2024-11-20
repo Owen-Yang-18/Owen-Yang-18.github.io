@@ -8,6 +8,8 @@ main:
   #   url: https://owen-yang-18.github.io/#research-experiences
   - title: "Publications"
     url: https://owen-yang-18.github.io/#publications
+  - title: "Services"
+    url: https://owen-yang-18.github.io/#services
   - title: "Resume"
     url:  /assets/files/Yi_Yang_Resume.pdf
   # - title: "Sitemap"
