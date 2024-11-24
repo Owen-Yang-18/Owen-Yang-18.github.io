@@ -136,4 +136,4 @@ Kaiqiao Han, **Yi Yang**, Zijie Huang, Xuan Kan, Yang Yang, Ying Guo, Lifang He,
   - Pacific Symposium on Biocomputing (PSB), 2024.
 
 
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=NgvMLYKIHjwAzbgvXnKj-o5rclmQCnoBr9XLu4RLAxg&cl=ffffff&w=a"></script>
+ <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=NgvMLYKIHjwAzbgvXnKj-o5rclmQCnoBr9XLu4RLAxg"></script>
