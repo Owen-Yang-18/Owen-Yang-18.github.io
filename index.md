@@ -135,6 +135,6 @@ Kaiqiao Han, **Yi Yang**, Zijie Huang, Xuan Kan, Yang Yang, Ying Guo, Lifang He,
   - IEEE International Conference on Data Mining (ICDM), 2023, 2024.  
   - Pacific Symposium on Biocomputing (PSB), 2024.
 
-<head>
+<div style="height: 0; width: 0; overflow: hidden;">
  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=NgvMLYKIHjwAzbgvXnKj-o5rclmQCnoBr9XLu4RLAxg"></script>
- </head>
+ </div>
