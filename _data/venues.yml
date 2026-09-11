@@ -1,0 +1,5 @@
+# Optional links and colors for the venue badges (the `abbr` field in _bibliography/papers.bib), for example:
+#
+# "KDD":
+#   url: https://kdd.org/
+#   color: "#00369f"

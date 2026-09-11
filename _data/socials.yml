@@ -1,0 +1,8 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: owen.yang@duke.edu # your email address
+scholar_userid: BJM5VjsAAAAJ # your Google Scholar ID
+github_username: Owen-Yang-18 # your GitHub user name
+linkedin_username: yi-yang-cs3691ab # your LinkedIn user name
+cv_pdf: /assets/pdf/Yi_Yang_Resume_2026.pdf # path to your CV PDF file

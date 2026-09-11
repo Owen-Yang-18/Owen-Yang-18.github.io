@@ -1,0 +1,133 @@
+---
+---
+
+@inproceedings{zhang2026mpceval,
+  abbr        = {KDD},
+  bibtex_show = {true},
+  title       = {{MPCEval}: A Benchmark for Multi-Party Conversation Generation},
+  author      = {Zhang†, Minxing and Yang†, Yi and Jia, Zhuofan and Yang, Xuan and Pei, Jian and Zang, Yuchen and Deng, Xingwang and Chen, Xianglong},
+  annotation  = {† Equal contribution},
+  booktitle   = {Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2},
+  pages       = {10258--10267},
+  year        = {2026},
+  publisher   = {ACM},
+  additional_info = {, Datasets and Benchmarks Track, **Oral**},
+  doi         = {10.1145/3770855.3817574},
+  arxiv       = {2603.04969},
+  pdf         = {https://arxiv.org/pdf/2603.04969},
+  code        = {https://github.com/Owen-Yang-18/MPCEval},
+  abstract    = {Multi-party conversation generation, such as smart reply and collaborative assistants, is an increasingly important capability of generative AI, yet its evaluation remains a critical bottleneck. Compared to two-party dialogue, multi-party settings introduce distinct challenges, including complex turn-taking, role-dependent speaker behavior, long-range conversational structure, and multiple equally valid continuations. Accordingly, we introduce MPCEval, a task-aware evaluation and benchmarking suite for multi-party conversation generation. MPCEval decomposes generation quality into speaker modeling, content quality, and speaker--content consistency, and explicitly distinguishes local next-turn prediction from global full-conversation generation. It provides novel, quantitative, reference-free, and reproducible metrics that scale across datasets and models. We apply MPCEval to diverse public and real-world datasets and evaluate modern generation methods alongside human-authored conversations. The results reveal systematic, dimension-specific model characteristics in participation balance, content progression and novelty, and speaker--content consistency, demonstrating that evaluation objectives critically shape model assessment and that single-score evaluation obscures fundamental differences in multi-party conversational behavior. The implementation of MPCEval and the associated evaluation code are publicly available at https://github.com/Owen-Yang-18/MPCEval.}
+}
+
+@article{zhang2026generalizability,
+  abbr        = {CSUR},
+  bibtex_show = {true},
+  title       = {Generalizability of Large Language Model-Based Agents: A Comprehensive Survey},
+  author      = {Zhang, Minxing and Yang, Yi and Xie, Roy and Dhingra, Bhuwan and Zhou, Shuyan and Pei, Jian},
+  journal     = {ACM Computing Surveys},
+  volume      = {58},
+  number      = {10},
+  pages       = {1--44},
+  year        = {2026},
+  publisher   = {ACM},
+  issn        = {0360-0300},
+  doi         = {10.1145/3794858},
+  arxiv       = {2509.16330},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3794858},
+  abstract    = {Large Language Model (LLM)-based agents have recently emerged as a new paradigm that extends the capabilities of LLMs beyond text generation to dynamic interaction with external environments. A critical challenge lies in ensuring their generalizability – the ability to maintain consistently high performance across varied instructions, tasks, environments, and domains, especially those different from the agent’s fine-tuning data. Despite growing interest, the concept of generalizability in LLM-based agents remains underdefined, and systematic approaches to measure and improve it are lacking. We provide the first comprehensive review of generalizability in LLM-based agents. We begin by clarifying the definition and boundaries of agent generalizability. We then review existing benchmarks. Next, we categorize strategies for improving generalizability into three groups: methods targeting the backbone LLM, targeting agent components, and targeting their interactions. Furthermore, we introduce the distinction between generalizable frameworks and generalizable agents and outline how generalizable frameworks can be translated into agent-level generalizability. Finally, we identify future directions, including the development of standardized evaluation frameworks, variance- and cost-based metrics, and hybrid approaches that integrate methodological innovations with agent architecture-level designs. We aim to establish a foundation for principled research on building LLM-based agents that generalize reliably across diverse real-world applications.}
+}
+
+@article{yang2026simpson,
+  abbr        = {VLDB},
+  bibtex_show = {true},
+  title       = {Finding Non-Redundant {Simpson's} Paradox in Multidimensional Data},
+  author      = {Yang, Yi and Pei, Jian and Yang, Jun and Xie, Jichun},
+  journal     = {Proceedings of the VLDB Endowment},
+  volume      = {19},
+  number      = {9},
+  pages       = {2466--2479},
+  year        = {2026},
+  publisher   = {VLDB Endowment},
+  doi         = {10.14778/3819518.3819564},
+  arxiv       = {2511.00748},
+  pdf         = {https://www.vldb.org/pvldb/vol19/p2466-yang.pdf},
+  abstract    = {Simpson's paradox has broad impact across many scientific domains. Existing detection methods overlook a key issue: many detected paradoxes may be redundant, arising from equivalent data subsets, identical subpopulation partitions, or correlated outcome variables, thereby obscure insights and increase computational cost. In this paper, we present a framework for finding non-redundant Simpson's paradoxes by formalizing three sources of redundancy—sibling child, separator, and statistic equivalence—and showing that pair-wise redundancy forms an equivalence relation. We further propose a concise representation that groups redundant paradoxes and develop efficient algorithms combining depth-first population materialization with redundancy-aware discovery. Experiments on real and synthetic datasets show that redundancy is prevalent (over 40\% in some cases), while our methods scale to millions of records, achieve up to 6.72× speedup over brute-force approaches and identify robust paradoxes, enabling efficient discovery, compact summarization, and clear interpretation in multidimensional data.}
+}
+
+@inproceedings{han2024brainode,
+  abbr        = {BHI},
+  bibtex_show = {true},
+  title       = {{BrainODE}: Dynamic Brain Signal Analysis via Graph-Aided Neural Ordinary Differential Equations},
+  author      = {Han, Kaiqiao and Yang, Yi and Huang, Zijie and Kan, Xuan and Guo, Ying and Yang, Yang and He, Lifang and Zhan, Liang and Sun, Yizhou and Wang, Wei and Yang, Carl},
+  booktitle   = {2024 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)},
+  pages       = {1--8},
+  year        = {2024},
+  publisher   = {IEEE},
+  doi         = {10.1109/BHI62660.2024.10913768},
+  arxiv       = {2405.00077},
+  pdf         = {https://arxiv.org/pdf/2405.00077},
+  abstract    = {Brain network analysis is vital for understanding the neural interactions regarding brain structures and functions, and identifying potential biomarkers for clinical phenotypes. However, widely used brain signals such as Blood Oxygen Level Dependent (BOLD) time series generated from functional Magnetic Resonance Imaging (fMRI) often manifest three challenges: (1) missing values, (2) irregular samples, and (3) sampling misalignment, due to instrumental limitations, impacting downstream brain network analysis and clinical outcome predictions. In this work, we propose a novel model called BrainODE to achieve continuous modeling of dynamic brain signals using Ordinary Differential Equations (ODE). By learning latent initial values and neural ODE functions from irregular time series, BrainODE effectively reconstructs brain signals at any time point, mitigating the aforementioned three data challenges of brain signals altogether. Comprehensive experimental results on real-world neuroimaging datasets demonstrate the superior performance of BrainODE and its capability of addressing the three data challenges.}
+}
+
+@inproceedings{yang2024fedbrain,
+  abbr        = {PSB},
+  bibtex_show = {true},
+  title       = {{FedBrain}: Federated Training of Graph Neural Networks for Connectome-based Brain Imaging Analysis},
+  author      = {Yang, Yi and Xie, Han and Cui, Hejie and Yang, Carl},
+  booktitle   = {Pacific Symposium on Biocomputing 2024},
+  pages       = {214--225},
+  year        = {2024},
+  publisher   = {World Scientific},
+  doi         = {10.1142/9789811286421_0017},
+  pdf         = {https://www.worldscientific.com/doi/pdf/10.1142/9789811286421_0017},
+  abstract    = {Recent advancements in neuroimaging techniques have sparked a growing interest in understanding the complex interactions between anatomical regions of interest (ROIs), forming into brain networks that play a crucial role in various clinical tasks, such as neural pattern discovery and disorder diagnosis. In recent years, graph neural networks (GNNs) have emerged as powerful tools for analyzing network data. However, due to the complexity of data acquisition and regulatory restrictions, brain network studies remain limited in scale and are often confined to local institutions. These limitations greatly challenge GNN models to capture useful neural circuitry patterns and deliver robust downstream performance. As a distributed machine learning paradigm, federated learning (FL) provides a promising solution in addressing resource limitation and privacy concerns, by enabling collaborative learning across local institutions (i.e., clients) without data sharing. While the data heterogeneity issues have been extensively studied in recent FL literature, cross-institutional brain network analysis presents unique data heterogeneity challenges, that is, the inconsistent ROI parcellation systems and varying predictive neural circuitry patterns across local neuroimaging studies. To this end, we propose FedBrain, a GNN-based personalized FL framework that takes into account the unique properties of brain network data. Specifically, we present a federated atlas mapping mechanism to overcome the feature and structure heterogeneity of brain networks arising from different ROI atlas systems, and a clustering approach guided by clinical prior knowledge to address varying predictive neural circuitry patterns regarding different patient groups, neuroimaging modalities and clinical outcomes. Compared to existing FL strategies, our approach demonstrates superior and more consistent performance, showcasing its strong potential and generalizability in cross-institutional connectome-based brain imaging analysis.}
+}
+
+@inproceedings{li2024brainsteam,
+  abbr        = {PSB},
+  bibtex_show = {true},
+  title       = {{BrainSTEAM}: A Practical Pipeline for Connectome-based {fMRI} Analysis towards Subject Classification},
+  author      = {Li, Alexis and Yang, Yi and Cui, Hejie and Yang, Carl},
+  booktitle   = {Pacific Symposium on Biocomputing 2024},
+  pages       = {53--64},
+  year        = {2024},
+  publisher   = {World Scientific},
+  additional_info = {, **Oral**},
+  doi         = {10.1142/9789811286421_0005},
+  pdf         = {https://www.worldscientific.com/doi/pdf/10.1142/9789811286421_0005},
+  abstract    = {Functional brain networks represent dynamic and complex interactions among anatomical regions of interest (ROIs), providing crucial clinical insights for neural pattern discovery and disorder diagnosis. In recent years, graph neural networks (GNNs) have proven immense success and effectiveness in analyzing structured network data. However, due to the high complexity of data acquisition, resulting in limited training resources of neuroimaging data, GNNs, like all deep learning models, suffer from overfitting. Moreover, their capability to capture useful neural patterns for downstream prediction is also adversely affected. To address such challenge, this study proposes BrainSTEAM, an integrated framework featuring a spatio-temporal module that consists of an EdgeConv GNN model, an autoencoder network, and a Mixup strategy. In particular, the spatio-temporal module aims to dynamically segment the time series signals of the ROI features for each subject into chunked sequences. We leverage each sequence to construct correlation networks, thereby increasing the training data. Additionally, we employ the EdgeConv GNN to capture ROI connectivity structures, an autoencoder for data denoising, and mixup for enhancing model training through linear data augmentation. We evaluate our framework on two real-world neuroimaging datasets, ABIDE for Autism prediction and HCP for gender prediction. Extensive experiments demonstrate the superiority and robustness of BrainSTEAM when compared to a variety of existing models, showcasing the strong potential of our proposed mechanisms in generalizing to other studies for connectome-based fMRI analysis.}
+}
+
+@inproceedings{yang2023ptgb,
+  abbr        = {CHIL},
+  bibtex_show = {true},
+  title       = {{PTGB}: Pre-Train Graph Neural Networks for Brain Network Analysis},
+  author      = {Yang, Yi and Cui, Hejie and Yang, Carl},
+  booktitle   = {Proceedings of the Conference on Health, Inference, and Learning},
+  series      = {Proceedings of Machine Learning Research},
+  volume      = {209},
+  pages       = {526--544},
+  year        = {2023},
+  publisher   = {PMLR},
+  additional_info = {, **Oral**},
+  html        = {https://proceedings.mlr.press/v209/yang23a.html},
+  arxiv       = {2305.14376},
+  pdf         = {https://arxiv.org/pdf/2305.14376},
+  abstract    = {The human brain is the central hub of the neurobiological system, controlling behavior and cognition in complex ways. Recent advances in neuroscience and neuroimaging analysis have shown a growing interest in the interactions between brain regions of interest (ROIs) and their impact on neural development and disorder diagnosis. As a powerful deep model for analyzing graph-structured data, Graph Neural Networks (GNNs) have been applied for brain network analysis. However, training deep models requires large amounts of labeled data, which is often scarce in brain network datasets due to the complexities of data acquisition and sharing restrictions. To make the most out of available training data, we propose PTGB, a GNN pre-training framework that captures intrinsic brain network structures, regardless of clinical outcomes, and is easily adaptable to various downstream tasks. PTGB comprises two key components: (1) an unsupervised pre-training technique designed specifically for brain networks, which enables learning from large-scale datasets without task-specific labels; (2) a data-driven parcellation atlas mapping pipeline that facilitates knowledge transfer across datasets with different ROI systems. Extensive evaluations using various GNN models have demonstrated the robust and superior performance of PTGB compared to baseline methods.}
+}
+
+@inproceedings{yang2022data,
+  abbr        = {KDD},
+  bibtex_show = {true},
+  title       = {Data-Efficient Brain Connectome Analysis via Multi-Task Meta-Learning},
+  author      = {Yang†, Yi and Zhu†, Yanqiao and Cui, Hejie and Kan, Xuan and He, Lifang and Guo, Ying and Yang, Carl},
+  annotation  = {† Equal contribution},
+  booktitle   = {Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  pages       = {4743--4751},
+  year        = {2022},
+  publisher   = {ACM},
+  doi         = {10.1145/3534678.3542680},
+  arxiv       = {2206.04486},
+  pdf         = {https://dl.acm.org/doi/pdf/10.1145/3534678.3542680},
+  abstract    = {Brain networks characterize complex connectivities among brain regions as graph structures, which provide a powerful means to study brain connectomes. In recent years, graph neural networks have emerged as a prevalent paradigm of learning with structured data. However, most brain network datasets are limited in sample sizes due to the relatively high cost of data collection, which hinders the deep learning models from sufficient training. Inspired by meta-learning that learns new concepts fast with limited training examples, this paper studies data-efficient training strategies for analyzing brain connectomes in a cross-dataset setting. Specifically, we propose to meta-train the model on datasets of large sample sizes and transfer the knowledge to small datasets. In addition, we also explore brain-network-oriented designs, including atlas transformation and adaptive task reweighing. Compared to other pre-training strategies, our meta-learning-based approach achieves higher and stabler performance, which demonstrates the effectiveness of our proposed solutions. The framework is also able to derive new insights regarding the similarities among datasets and diseases in a data-driven fashion.}
+}

@@ -1,0 +1,104 @@
+{%- comment -%}
+  Local override of al_folio_core's _includes/header.liquid (al_folio_core 1.0.15).
+  The site is a single page, so the menu links jump to sections of the homepage
+  (listed in _data/navigation.yml) instead of linking to separate pages.
+  Everything else matches the gem's version.
+{%- endcomment -%}
+<header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+    <div class="container">
+      {% if page.permalink != '/' %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% if site.title == 'blank' %}
+            {% if site.first_name %}
+              <span class="font-weight-bold">
+                {{- site.first_name -}}
+              </span>
+            {% endif %}
+            {% if site.middle_name %}
+              {{- site.middle_name -}}
+            {% endif %}
+            {% if site.last_name %}
+              {{- site.last_name -}}
+            {% endif %}
+          {% else %}
+            {{- site.title -}}
+          {% endif %}
+        </a>
+      {% elsif site.enable_navbar_social %}
+        <!-- Social Icons -->
+        <div class="navbar-brand social">{% social_links %}</div>
+      {% endif %}
+      <!-- Navbar Toggle -->
+      <button
+        class="navbar-toggler collapsed navbar-toggler-main"
+        type="button"
+        data-nav-toggle="navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
+        <ul class="navbar-nav navbar-menu-list flex-nowrap">
+          <!-- Sections of the one-page homepage -->
+          {% for item in site.data.navigation %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% if page.permalink != '/' %}{{ '/' | relative_url }}{% endif %}#{{ item.anchor }}">
+                {{- item.title -}}
+              </a>
+            </li>
+          {% endfor %}
+          {% if site.search_enabled %}
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" type="button" title="Search" aria-label="Open search">
+                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
+              </button>
+            </li>
+          {% endif %}
+          {% if site.enable_darkmode %}
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme">
+                <i class="fa-half-sun-moon" id="light-toggle-system"></i>
+                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+              </button>
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% if site.enable_progressbar %}
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  {% endif %}
+</header>
+<script>
+  // On phones the menu is a collapsed panel; close it after jumping to a section so it doesn't cover the page.
+  document.querySelectorAll("#navbarNav .nav-link").forEach(function (link) {
+    link.addEventListener("click", function () {
+      var panel = document.getElementById("navbarNav");
+      var toggle = document.querySelector('[data-nav-toggle="navbarNav"]');
+      if (panel && panel.classList.contains("show")) {
+        panel.classList.remove("show");
+        if (toggle) {
+          toggle.classList.add("collapsed");
+          toggle.setAttribute("aria-expanded", "false");
+        }
+      }
+    });
+  });
+</script>

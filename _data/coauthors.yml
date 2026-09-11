@@ -1,0 +1,6 @@
+# Coauthor homepages, used to link coauthor names in the publication list.
+# Keys are last names in lowercase, for example:
+#
+# "yang":
+#   - firstname: ["Carl", "C."]
+#     url: https://www.cs.emory.edu/~jyang71/
